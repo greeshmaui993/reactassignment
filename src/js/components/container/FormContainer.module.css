@@ -1,0 +1,86 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    font-family: Helvetica;
+    border: 1px solid #000000;
+  }
+
+.pickupSavings {
+  margin-bottom: 10px;
+}
+
+.leftAlign{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+@media (max-width:320px)  {
+    .card {
+        width: 100%;
+        }
+    }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 30px 20px;
+  }
+
+  .rightAlign{
+    float: right;
+    font-weight: bold;
+  }
+  .totalText{
+    border-top: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .redtext{
+    float: right;
+    font-weight: bold;
+    color: red
+  }
+
+  .tooltip {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 130px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 19px 14px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip.tip span:before{
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right:8px solid black;
+    left:-8px;
+
+    top:7px;
+}

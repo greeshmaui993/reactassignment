@@ -1,0 +1,191 @@
+.card {
+
+  /* Add shadows to create the "card" effect */
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  transition: 0.3s;
+
+
+
+
+  }
+
+  /* On mouse-over, add a deeper shadow */
+
+  .card:hover {
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+
+  /* Add some padding inside the card container */
+
+  .container {
+
+  padding: 2px 16px;
+
+  }
+
+  .leftAlign{
+    font-weight: bold;
+  }
+
+  .rightAlign{
+
+  float: right
+
+
+
+
+  }
+
+
+
+
+  .leftHalf {
+
+  float: left;
+
+  width: 50%;
+
+  }
+
+  .rightHalf {
+
+  float: left;
+
+  width: 50%;
+
+  }
+
+  .rightHalf p {
+
+  padding-left: 3px;
+
+  }
+
+
+
+
+
+
+  .itemImage{
+  width: 100%;
+  height: 100%;
+  }
+
+  .item{
+
+  margin-top: 10px;
+
+  }
+
+  .item a{
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .item a:hover{
+    border: 1px solid black;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .nowrap{
+    white-space:nowrap;
+    text-decoration: line-through;
+    color: #868686;
+    font-weight: bold;
+  }
+
+
+
+
+
+  .flexContainer{
+
+  width: 100%;
+
+
+
+  margin: 0 auto;
+
+  display: -webkit-flex; /* Safari */
+
+  display: flex; /* Standard syntax */
+
+  }
+
+  .flexContainer .column{
+
+  padding: 10px;
+
+  -webkit-flex: 1; /* Safari */
+
+  -ms-flex: 1; /* IE 10 */
+
+  flex: 1; /* Standard syntax */
+
+  display: inline-flex;
+
+  align-items: stretch;
+
+  }
+
+  .column p{
+
+  word-wrap: break-word
+
+  }
+
+  .itemImage{
+
+  }
+
+  .columncc{
+
+  padding: 10px;
+
+  -webkit-flex: 1; /* Safari */
+
+  -ms-flex: 1; /* IE 10 */
+
+  flex: 1; /* Standard syntax */
+
+  display: inline-block;
+
+  align-items: stretch;
+
+  }
+
+  .columncc p{
+
+  display: block !important;
+
+  }
+
+  .rightAlign{
+
+  text-align: right;
+
+  float: right;
+
+  }
+  .rightAlign{
+
+    text-align: right;
+
+    float: right;
+
+    width: 30%;
+
+    }
+
+    .leftAlign{
+
+    width: 50%;
+
+    }
